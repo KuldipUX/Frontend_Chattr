@@ -14,7 +14,7 @@ const useGetMessages = () => {
       try {
         axios.defaults.withCredentials = true;
         const res = await axios.get(
-          https://backend-chattar.onrender.com/api/v1/message/get/${selectedUser._id}`
+          `https://backend-chattar.onrender.com/api/v1/message/get/${selectedUser._id}`
         );
 
         console.log("FULL RESPONSE:", res.data);
