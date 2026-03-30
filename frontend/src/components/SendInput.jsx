@@ -18,7 +18,7 @@ const SendInput = () => {
     try {
       // 🔥 API call (DB save)
       const res = await axios.post(
-        `http://localhost:8080/api/v1/message/send/${selectedUser?._id}`,
+        `https://backend-chattar.onrender.com/api/v1/message/send/${selectedUser?._id}`,
         { message }
       );
 
