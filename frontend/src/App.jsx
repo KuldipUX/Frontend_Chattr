@@ -21,7 +21,7 @@ function App() {
     if (authUser?._id) {
       
       // 🔥 connect socket
-      socket = io('https://backend-chattar.onrender.com', {
+      socket = io('https://backend-chattar.onrender.com/', {
         withCredentials: true
       });
 
