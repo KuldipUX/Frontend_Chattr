@@ -18,7 +18,7 @@ const Login = () => {
     console.log(user);
     try {
       const res = await axios.post(
-        `http://localhost:8080/api/v1/user/login`,
+        https://backend-chattar.onrender.com/api/v1/user/login`,
         user,
         {
           headers: {
