@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background: url(../src/assets/Desktop\ -\ 1\ \(1\).png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+::-webkit-scrollbar {
+    /* Customize the scrollbar width */
+    width:6px;
+   
+}
+
+::-webkit-scrollbar-track {
+    /* Customize the scrollbar track */
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    /* Customize the scrollbar thumb */
+    background:#000;
+    border-radius: 10px;
+}
